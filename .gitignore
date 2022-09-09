@@ -1,0 +1,9 @@
+venv/
+*.pyc
+.idea/*
+!**/__pycache__/
+*.pot
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+.env
