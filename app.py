@@ -11,9 +11,14 @@ from flask import Flask, request, jsonify
 from fer import Video
 from fer import FER
 from decouple import config
+from flask_cors import CORS, cross_origin
 
 
 app = Flask(__name__)
+
+app = Flask(__name__)
+CORS(app)
+app.config['CORS_HEADERS'] = 'application/json'
 
 
 @app.route('/video_analysis', methods=['POST'])

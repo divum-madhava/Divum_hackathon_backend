@@ -3,6 +3,7 @@ scipy
 pandas
 matplotlib
 seaborn
+flask-cors
 scikit-learn
 opencv-python
 Flask
