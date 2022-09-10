@@ -103,4 +103,4 @@ def upload_to_s3(name,path=None,obj=None):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=4000)
+    app.run(debug=False, host='0.0.0.0', port=4000)
